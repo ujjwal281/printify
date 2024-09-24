@@ -3,8 +3,9 @@ import Home from "./pages/Home"
 
 function App() {
   return (
-    <div className="flex bg-gray-50 justify-center">
-      <div className="  fixed flex  bg-white justify-between p-2 container z-40">
+    <div className="md:flex md:justify-center">
+    <div className="flex bg-gray-50">
+      <div className="  fixed flex  bg-white justify-between p-2 container z-40 my-5">
         <div className="text-3xl font-bold ">Printify</div>
         <div className=" ml-auto">
         <SidebarWithBurgerMenu />
@@ -14,9 +15,10 @@ function App() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center ">
+      <div className="container">
         <Home/>
       </div>
+    </div>
     </div>
   )
 }

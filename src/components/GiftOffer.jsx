@@ -10,7 +10,7 @@ const GiftOffer = () => {
             <section className="flex justify-center items-center font-semibold hover:bg-gray-200 p-3 px-6 hover:cursor-pointer ">What&apos;s a niche</section>
         </div>
         </div>
-        <div>
+        <div className="">
             <img src="https://printify.com/assets/img/niche/niche-preview-lg.png" alt="" />
         </div>
     </div>

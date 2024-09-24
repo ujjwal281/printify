@@ -7,7 +7,7 @@ const VideoCard = () => {
       </div>
       <hr />
       <div className="flex ">
-      <iframe  className="rounded-md w-full lg:w-80 h-60 lg:h-96 "  src="https://www.youtube.com/embed/jDbvPF20of0"></iframe>
+      <iframe  className="rounded-md  lg:w-80 h-60 lg:h- "  src="https://www.youtube.com/embed/jDbvPF20of0"></iframe>
       </div>
 
     </div>

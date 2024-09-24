@@ -2,9 +2,9 @@
 const GiftBox = () => {
 
   return (
-    <div className="bg-white p-8">
+    <div className="w-fit bg-white p-8">
       <div className="lg:grid lg:grid-cols-3">
-        <div className=" lg:block hidden  ">
+        <div className=" lg:flex hidden  ">
           <section className="text-3xl  font-bold">Create your first store and <span className="text-green-400">get a free gift</span>! </section>
           <section className="flex justify-center">
             <img src="https://printify.com/assets/img/dashboard/gift-closed.svg" alt="" />
