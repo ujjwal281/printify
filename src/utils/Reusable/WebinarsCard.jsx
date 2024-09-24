@@ -4,7 +4,7 @@ const WebinarsCard = () => {
     <div className="bg-white border-black border-opacity-10 border flex flex-col gap-3 p-6">
       <div className="flex justify-between">
         <h1>Webinars</h1>
-        <div className="text-green-600">See more</div>
+        <div className="text-green-600 hover:text-green-400 cursor-pointer">See more</div>
       </div>
         <hr />
       <div>
@@ -14,7 +14,7 @@ const WebinarsCard = () => {
       From $0 to $250K in a Year: Learn From an Etsy Expert
       </div>
       <div className="flex justify-end">
-        <button className="font-semibold border border-black p-2 border-opacity-15">Watch webinar</button>
+        <button className="font-semibold border border-black p-2 border-opacity-15 hover:bg-green-600 duration-75 cursor-pointer">Watch webinar</button>
       </div>
     </div>
   )

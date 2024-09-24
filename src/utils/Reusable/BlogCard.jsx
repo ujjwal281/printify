@@ -4,7 +4,7 @@ const BlogCard = () => {
     <div className="bg-white border-black border-opacity-10 border flex flex-col gap-3 p-6">
       <div className="flex justify-between">
         <h1 className="font-bold text-2xl">Printify Blog</h1>
-        <div className="text-green-400">See more</div>
+        <div className="text-green-400 hover:text-green-400 cursor-pointer">See more</div>
       </div>
       <hr />
       <div>
@@ -14,7 +14,7 @@ const BlogCard = () => {
       Holiday Guide 2024 – Tackle the Shopping Season Like a Pro
       </div>
       <div className="flex justify-end">
-        <button className="border-black border border-opacity-15 px-6 p-2 font-bold">Read article</button>
+        <button className="border-black border border-opacity-15 px-6 p-2 font-bold  hover:bg-green-600 duration-75 cursor-pointer">Read article</button>
       </div>
     </div>
   )
